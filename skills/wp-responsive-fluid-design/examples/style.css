@@ -1,0 +1,9 @@
+.card-wrap { container-type: inline-size; }
+
+.card { display: grid; gap: var(--wp--preset--spacing--30); }
+
+@container (min-width: 32rem) {
+	.card { grid-template-columns: 1fr 2fr; align-items: center; }
+}
+
+img { max-width: 100%; height: auto; }

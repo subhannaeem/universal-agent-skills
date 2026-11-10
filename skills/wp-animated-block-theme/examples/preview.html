@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reveal demo</title>
+<style>
+body{font:18px system-ui;margin:0}section{min-height:90vh;display:grid;place-items:center;background:#f4f4f8}
+.card{padding:2rem;background:#fff;border-radius:12px;box-shadow:0 4px 20px #0002;max-width:24rem}
+@media (prefers-reduced-motion: no-preference){
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.reveal.is-visible{opacity:1;transform:none}}
+</style>
+<section><p>Scroll down ↓</p></section>
+<section><div class="card reveal"><h2>Reveal Card</h2><p>Fades in once, then stops observing.</p></div></section>
+<script>
+document.querySelectorAll('.reveal').forEach(el=>{const o=new IntersectionObserver(([e])=>{if(e.isIntersecting){el.classList.add('is-visible');o.disconnect()}});o.observe(el)})
+</script>
