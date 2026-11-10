@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP Responsive Fluid Design"
+  short_description: "Make a block theme fluid and mobile-first"
+  default_prompt: "Use $wp-responsive-fluid-design for this task."

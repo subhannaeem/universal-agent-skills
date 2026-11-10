@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP GSAP Lottie Integration"
+  short_description: "Add GSAP or Lottie to WordPress the right way"
+  default_prompt: "Use $wp-gsap-lottie-integration for this task."

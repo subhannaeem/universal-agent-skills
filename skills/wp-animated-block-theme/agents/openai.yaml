@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP Animated Block Theme"
+  short_description: "Add accessible scroll and hover animations to a block theme"
+  default_prompt: "Use $wp-animated-block-theme for this task."

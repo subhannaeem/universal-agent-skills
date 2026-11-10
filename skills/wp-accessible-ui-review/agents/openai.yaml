@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP Accessible UI Review"
+  short_description: "Find accessibility issues in a WordPress theme"
+  default_prompt: "Use $wp-accessible-ui-review for this task."

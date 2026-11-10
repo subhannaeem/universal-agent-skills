@@ -25,6 +25,8 @@ feature-delivery-team
 |---|---|
 | [plan-first-tdd-change](skills/plan-first-tdd-change) | Branch from main → deep plan → you approve assumptions → failing tests → smallest possible code change |
 | [feature-delivery-team](skills/feature-delivery-team) | A PM agent runs an architect, 3 devs and 2 QA as subagents to deliver one feature end to end, with minimal token use |
+| [WordPress bundle](bundles/wordpress-website) | 6 `wp-*` skills: build a complete responsive, animated, accessible WordPress site (`wp-build-complete-website` + 5 helpers) |
+
 
 ## Install
 
@@ -35,7 +37,7 @@ git clone https://github.com/subhannaeem/universal-agent-skills.git
 cd universal-agent-skills && ./install.sh
 ```
 
-`install.sh` copies every skill to `.claude/skills`, `.agents/skills` and `.github/skills` in the current project. Run `./install.sh --global` to install to `~/.claude/skills`, `~/.codex/skills` and `~/.copilot/skills` instead.
+`./install.sh wordpress` installs only the WordPress bundle. `install.sh` copies every skill to `.claude/skills`, `.agents/skills` and `.github/skills` in the current project. Run `./install.sh --global` to install to `~/.claude/skills`, `~/.codex/skills` and `~/.copilot/skills` instead.
 
 ## Use
 

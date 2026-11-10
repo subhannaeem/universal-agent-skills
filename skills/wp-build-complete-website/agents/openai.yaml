@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP Build Complete Website"
+  short_description: "Build a full responsive animated WordPress site from a description"
+  default_prompt: "Use $wp-build-complete-website for this task."
