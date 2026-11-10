@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Delivery Team"
+  short_description: "PM-run architect, 3 devs and 2 QA deliver one feature"
+  default_prompt: "Use $feature-delivery-team to act as PM and deliver this feature with the architect, developer and QA subagents, using targeted tests and the test ledger."
