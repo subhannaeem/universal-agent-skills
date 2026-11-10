@@ -2,6 +2,19 @@
 
 Reusable skills that work in **Claude Code**, **OpenAI Codex** and **GitHub Copilot**.
 
+> **Stop AI agents from rewriting your whole codebase.** Plan first, test first, change only what's needed.
+
+## How it works
+
+```
+plan-first-tdd-change
+  branch from main → deep plan → YOU approve assumptions
+  → failing tests → smallest code change → diff audit
+
+feature-delivery-team
+  PM → architect → 3 devs (parallel) → 2 QA → fix loop → final report
+```
+
 ## Skills
 
 | Skill | What it does |
@@ -29,6 +42,10 @@ Ask your agent:
 > Use feature-delivery-team to build *<feature description>*.
 
 It will stop and wait for you to approve its assumptions before writing any code.
+
+## Support
+
+If this helps you, give it a ⭐ and share it. Issues and PRs welcome.
 
 ## License
 
