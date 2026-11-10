@@ -1,0 +1,30 @@
+{
+  "name": "universal-agent-skills",
+  "owner": { "name": "Muhammad Subhan" },
+  "metadata": { "description": "Reusable agent skills for Claude Code, Codex and GitHub Copilot" },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./",
+      "strict": false,
+      "description": "plan-first-tdd-change and feature-delivery-team",
+      "license": "MIT",
+      "skills": ["./skills/plan-first-tdd-change", "./skills/feature-delivery-team"]
+    },
+    {
+      "name": "wordpress-website",
+      "source": "./",
+      "strict": false,
+      "description": "Build a complete responsive, animated, accessible WordPress site",
+      "license": "MIT",
+      "skills": [
+        "./skills/wp-build-complete-website",
+        "./skills/wp-animated-block-theme",
+        "./skills/wp-responsive-fluid-design",
+        "./skills/wp-gsap-lottie-integration",
+        "./skills/wp-motion-performance-audit",
+        "./skills/wp-accessible-ui-review"
+      ]
+    }
+  ]
+}
