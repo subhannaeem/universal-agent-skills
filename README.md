@@ -4,6 +4,10 @@ Reusable skills that work in **Claude Code**, **OpenAI Codex** and **GitHub Copi
 
 > **Stop AI agents from rewriting your whole codebase.** Plan first, test first, change only what's needed.
 
+![Demo](assets/demo.gif)
+
+*Illustrative demo of the workflow.*
+
 ## How it works
 
 ```
