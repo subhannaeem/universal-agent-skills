@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "demo/reveal-card",
+  "title": "Reveal Card",
+  "category": "design",
+  "supports": { "interactivity": true, "html": false },
+  "style": "file:./style.css",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js"
+}

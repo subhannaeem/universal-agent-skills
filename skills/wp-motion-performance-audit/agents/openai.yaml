@@ -1,0 +1,4 @@
+interface:
+  display_name: "WP Motion Performance Audit"
+  short_description: "Audit animation impact on Core Web Vitals"
+  default_prompt: "Use $wp-motion-performance-audit for this task."
