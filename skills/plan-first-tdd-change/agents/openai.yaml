@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan-first TDD Change"
+  short_description: "Branch, deep plan, assumptions approval, failing tests, minimal fix"
+  default_prompt: "Use $plan-first-tdd-change: branch from main, write a deep plan that follows the existing code, show me the assumptions to accept or reject, then write failing tests and implement only what makes them pass."
