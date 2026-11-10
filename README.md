@@ -30,7 +30,18 @@ feature-delivery-team
 
 ## Install
 
-Run from your project root (or use the global folder to install for all projects):
+**Claude Code** (plugin marketplace):
+
+```
+/plugin install dev-workflow --marketplace subhannaeem/universal-agent-skills
+/plugin install wordpress-website --marketplace subhannaeem/universal-agent-skills
+```
+
+**Codex** (inside Codex): `$skill-installer` then paste a skill folder URL, e.g. `https://github.com/subhannaeem/universal-agent-skills/tree/main/skills/plan-first-tdd-change`
+
+**GitHub Copilot / team sharing:** commit the skills to your repo's `.github/skills/` (Codex: `.agents/skills/`, Claude: `.claude/skills/`) with the script below.
+
+**Script (all three tools):**
 
 ```bash
 git clone https://github.com/subhannaeem/universal-agent-skills.git
