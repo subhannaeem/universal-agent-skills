@@ -7,6 +7,7 @@ Reusable skills that work in **Claude Code**, **OpenAI Codex** and **GitHub Copi
 | Skill | What it does |
 |---|---|
 | [plan-first-tdd-change](skills/plan-first-tdd-change) | Branch from main → deep plan → you approve assumptions → failing tests → smallest possible code change |
+| [feature-delivery-team](skills/feature-delivery-team) | A PM agent runs an architect, 3 devs and 2 QA as subagents to deliver one feature end to end, with minimal token use |
 
 ## Install
 
@@ -24,6 +25,8 @@ cd universal-agent-skills && ./install.sh
 Ask your agent:
 
 > Use plan-first-tdd-change to add *<your feature or fix>* on branch *<branch-name>*.
+>
+> Use feature-delivery-team to build *<feature description>*.
 
 It will stop and wait for you to approve its assumptions before writing any code.
 
